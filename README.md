@@ -1,5 +1,5 @@
 [![Build Status](https://github.com/telazer/steamworks.js/actions/workflows/publish.yml/badge.svg)](https://github.com/telazer/steamworks.js/actions/workflows/publish.yml)
-[![npm](https://img.shields.io/npm/v/steamworks.js.svg)](https://npmjs.com/package/@tleazer/steamworks.js)
+[![npm](https://img.shields.io/npm/v/steamworks.js.svg)](https://npmjs.com/package/@telazer/steamworks.js)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Why under Telazer?

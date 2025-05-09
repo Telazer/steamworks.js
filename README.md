@@ -80,11 +80,9 @@ For the production build, copy the relevant distro files from `sdk/redistributab
 
 Make sure you have the latest [node.js](https://nodejs.org/en/), [Rust](https://www.rust-lang.org/tools/install) and [Clang](https://rust-lang.github.io/rust-bindgen/requirements.html). We also need [Steam](https://store.steampowered.com/about/) installed and running.
 
-Install dependencies with `npm install` and then run `npm run build:debug` to build the library for your current platform.
+Install dependencies with `npm install` and then run `npm run build:debug` to build the library.
 
-To build for all platforms at once, you can use `npm run build:all` which will build release versions for all supported platforms (Windows, Linux, macOS x64, and macOS ARM64). For debugging purposes, you can use `npm run build:debug:all`.
-
-You can still develop and test on your current target, and open a PR. When the code is merged to main, a github action will build for all targets and publish a new version.
+There is no way to build for all targets easily. The good news is that you don't need to. You can develop and test on your current target, and open a PR. When the code is merged to main, a github action will build for all targets and publish a new version.
 
 ### Testing Electron
 

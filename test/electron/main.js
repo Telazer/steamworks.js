@@ -1,5 +1,5 @@
 const { app, BrowserWindow } = require('electron')
-const steamworks = require('steamworks.js')
+const steamworks = require('@telazer/steamworks.js')
 
 function createWindow() {
     const mainWindow = new BrowserWindow({
@@ -17,7 +17,7 @@ function createWindow() {
     } else {
         mainWindow.maximize()
     }
-    
+
     mainWindow.webContents.openDevTools()
     mainWindow.loadFile('index.html')
 }

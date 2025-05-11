@@ -2,7 +2,7 @@
 [![npm](https://img.shields.io/npm/v/steamworks.js.svg)](https://npmjs.com/package/steamworks.js)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Steamworks.js
+# Telazer Steamworks.js (fork)
 
 A modern implementation of the Steamworks SDK for HTML/JS and NodeJS based applications.
 
@@ -43,7 +43,7 @@ You can refer to the [declarations file](https://github.com/telazer/steamworks.j
 To use steamworks.js you don't have to build anything, just install it from npm:
 
 ```sh
-$: npm i steamworks.js
+$: npm i @telazer/steamworks
 ```
 
 ### Electron

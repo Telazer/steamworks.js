@@ -1,4 +1,4 @@
-import * as steamworks from "@telazer/steamworks.js";
+import * as steamworks from "@telazer/steamworks";
 
 export default function main() {
 	const client = steamworks.init(480);

@@ -2,7 +2,7 @@
     "name": "steamworks.js-electron-test",
     "private": true,
     "dependencies": {
-        "@telazer/steamworks.js": "../.."
+        "@telazer/steamworks": "../.."
     },
     "devDependencies": {
         "electron": "24.2.0",

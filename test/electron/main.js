@@ -1,5 +1,5 @@
 const { app, BrowserWindow } = require('electron')
-const steamworks = require('@telazer/steamworks.js')
+const steamworks = require('@telazer/steamworks')
 
 function createWindow() {
     const mainWindow = new BrowserWindow({

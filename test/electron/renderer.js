@@ -1,5 +1,5 @@
-/** @type {import('@telazer/steamworks.js')} */
-const steamworks = require('@telazer/steamworks.js');
+/** @type {import('@telazer/steamworks')} */
+const steamworks = require('@telazer/steamworks');
 const client = steamworks.init(480);
 
 const playerName = client.localplayer.getName()

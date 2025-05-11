@@ -22,7 +22,7 @@ I used [greenworks](https://github.com/greenheartgames/greenworks) for a long ti
 ## API
 
 ```js
-const steamworks = require('@telazer/steamworks.js')
+const steamworks = require('@telazer/steamworks')
 
 // You can pass an appId, or don't pass anything and use a steam_appid.txt file
 const client = steamworks.init(480)
@@ -64,7 +64,7 @@ const mainWindow = new BrowserWindow({
 To make the steam overlay working, call the `electronEnableSteamOverlay` on the end of your `main.js` file:
 
 ```js
-require('@telazer/steamworks.js').electronEnableSteamOverlay()
+require('@telazer/steamworks').electronEnableSteamOverlay()
 ```
 
 For the production build, copy the relevant distro files from `sdk/redistributable_bin/{YOUR_DISTRO}` into the root of your build. If you are using electron-forge, look for [#75](https://github.com/telazer/steamworks.js/issues/75).

@@ -67,7 +67,7 @@ To make the steam overlay working, call the `electronEnableSteamOverlay` on the 
 require('@telazer/steamworks').electronEnableSteamOverlay()
 ```
 
-For the production build, copy the relevant distro files from `sdk/redistributable_bin/{YOUR_DISTRO}` into the root of your build. If you are using electron-forge, look for [#75](https://github.com/telazer/steamworks.js/issues/75).
+For the production build, copy the relevant distro files from `sdk/redistributable_bin/{YOUR_DISTRO}` into the root of your build. If you are using electron-forge, look for [#75](https://github.com/ceifa/steamworks.js/issues/75).
 
 
 ## How to build

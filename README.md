@@ -1,7 +1,6 @@
-[![Build Status](https://github.com/ceifa/steamworks.js/actions/workflows/publish.yml/badge.svg)](https://github.com/ceifa/steamworks.js/actions/workflows/publish.yml)
+[![Build Status](https://github.com/telazer/steamworks.js/actions/workflows/publish.yml/badge.svg)](https://github.com/telazer/steamworks.js/actions/workflows/publish.yml)
 [![npm](https://img.shields.io/npm/v/steamworks.js.svg)](https://npmjs.com/package/steamworks.js)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Chat](https://img.shields.io/discord/663831597690257431?label=chat&logo=discord)](https://discord.gg/H6B7UE7fMY)
 
 # Steamworks.js
 
@@ -23,7 +22,7 @@ I used [greenworks](https://github.com/greenheartgames/greenworks) for a long ti
 ## API
 
 ```js
-const steamworks = require('steamworks.js')
+const steamworks = require('@telazer/steamworks.js')
 
 // You can pass an appId, or don't pass anything and use a steam_appid.txt file
 const client = steamworks.init(480)
@@ -37,7 +36,7 @@ if (client.achievement.activate('ACHIEVEMENT')) {
 }
 ```
 
-You can refer to the [declarations file](https://github.com/ceifa/steamworks.js/blob/main/client.d.ts) to check the API support and get more detailed documentation of each function.
+You can refer to the [declarations file](https://github.com/telazer/steamworks.js/blob/main/client.d.ts) to check the API support and get more detailed documentation of each function.
 
 ## Installation
 
@@ -65,10 +64,10 @@ const mainWindow = new BrowserWindow({
 To make the steam overlay working, call the `electronEnableSteamOverlay` on the end of your `main.js` file:
 
 ```js
-require('steamworks.js').electronEnableSteamOverlay()
+require('@telazer/steamworks.js').electronEnableSteamOverlay()
 ```
 
-For the production build, copy the relevant distro files from `sdk/redistributable_bin/{YOUR_DISTRO}` into the root of your build. If you are using electron-forge, look for [#75](https://github.com/ceifa/steamworks.js/issues/75).
+For the production build, copy the relevant distro files from `sdk/redistributable_bin/{YOUR_DISTRO}` into the root of your build. If you are using electron-forge, look for [#75](https://github.com/telazer/steamworks.js/issues/75).
 
 
 ## How to build
